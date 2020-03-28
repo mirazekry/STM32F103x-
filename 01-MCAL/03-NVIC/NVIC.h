@@ -142,15 +142,7 @@
   */ 
  extern ERROR_S NVIC_SetBasePriority(u32 Copy_u32BasePriority);
  
- /*
-   * Description   : This API shall get Base Priority
-   * -> Parameters : *Copy_u32BasePriority
-   * -> Return     : ERROR_S
-   *                         ERROR_OK
-   *                         ERROR_NOK
-   */
-  extern ERROR_S NVIC_GetBasePriority(u32 *Copy_u32BasePriority);
-
+ 
  
  /*  Groups and subgroups number  */
 

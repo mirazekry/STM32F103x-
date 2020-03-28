@@ -309,21 +309,6 @@ ERROR_S NVIC_SetBasePriority(u32 Copy_u32BasePriority)
 	return ERROR_OK;
 }
 
-/*
- * Description   : This API shall get Base Priority
- * -> Parameters : *Copy_u32BasePriority
- * -> Return     : ERROR_S
- *                         ERROR_OK
- *                         ERROR_NOK
- */
-ERROR_S NVIC_GetBasePriority(u32 *Copy_u32BasePriority)
-{
-	/**Copy_u32BasePriority = __get_BASEPRI(Copy_u32BasePriority);*/
-    /*asm("MSR basepri, %0" : : "r" ((u32)Copy_32) : "memory");*/
-
-
-	return ERROR_OK;
-}
 
 
 
