@@ -10,7 +10,7 @@
 #include "SWITCH.h"
 #include "SWITCH_config.h"
 
-switch_t Switches_info[NUM_OF_SWITCHES] = {
-		{PIN5, GPIOB , PIN_SET,SWITCH_NOT_PRESSED}
-};
+extern volatile switch_t switch_1;
+
+switch_t Switches_info[0] = {switch_1};
 
